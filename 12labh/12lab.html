@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="lab12.css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Display Name</title>
+    </head>
+<body>
+
+    <p>Insert data:</p><br>
+        <p>Name: <input type="text" id="name"></p>
+        <p>Surname: <input type="text" id="surname"></p>
+    
+        <p>Numbers: <input type="number" id="num1" maxlength="2" size="5"> <input type="number" id="num2" maxlength="2" size="5"> </p><br><br>
+        <p>Diameter: <input type="number" id="dia" oninput="validateInput(this)" maxlength="8"></p>
+        <button type="button" id="calc" onclick="data()">Calculate</button>
+        <script src="12lab.js"></script>
+
+        <p id="display"></p><br>
+
+       
+        
+    
+</body>
+</html>
